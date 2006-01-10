@@ -1,0 +1,160 @@
+2006-01-10 15:49  nicolaw
+
+	* lib/WWW/Comic/Plugin.pm (1.7): Changed the timeout back to 20
+	  seconds because of unit test failures
+
+2006-01-10 15:47  nicolaw
+
+	* Changes (1.3): Changed to 1.05 initial release
+
+2006-01-10 15:45  nicolaw
+
+	* lib/WWW/Comic/: Plugin.pm (1.6), Plugin/UFS.pm (1.7),
+	  Plugin/uComics.pm (1.3): Type of status instead of status_line
+
+2006-01-10 15:45  nicolaw
+
+	* lib/WWW/Comic.pm (1.5): Slight POD tweak
+
+2006-01-10 15:33  nicolaw
+
+	* Changes (1.2): Initial release 1.04
+
+2006-01-10 15:33  nicolaw
+
+	* lib/WWW/Comic/Plugin.pm (1.5): Reduced the timeout from 20
+	  seconds to 10
+
+2006-01-10 15:31  nicolaw
+
+	* lib/WWW/Comic/Plugin/UFS.pm (1.6): Return undef if ID is
+	  specified because we don't support it on this plugin yet
+
+2006-01-10 15:31  nicolaw
+
+	* lib/WWW/Comic/Plugin/uComics.pm (1.2): First revision
+
+2006-01-10 14:46  nicolaw
+
+	* lib/WWW/Comic/Plugin/UFS.pm (1.5): Changed to have a small
+	  default set of known supported comics, but still needs to probe for
+	  others that are unknown until cached in memory.
+
+2006-01-10 14:20  nicolaw
+
+	* lib/WWW/Comic/Plugin.pm (1.4): Added to POD
+
+2006-01-10 13:57  nicolaw
+
+	* lib/WWW/Comic.pm (1.4): Added lots of POD
+
+2006-01-10 11:45  nicolaw
+
+	* lib/WWW/Comic/Plugin.pm (1.3): Fixed typo of passing in the wrong
+	  value to get_strip() method -- should have been %param
+
+2006-01-10 11:40  nicolaw
+
+	* MANIFEST (1.6): Adding t/03basic.t
+
+2006-01-10 11:38  nicolaw
+
+	* t/03basic.t (1.2): Added skipping of 3rd round of tests if not
+	  enough plugins are available
+
+2006-01-10 11:19  nicolaw
+
+	* t/03basic.t (1.1): Added basic tests
+
+2006-01-10 10:51  nicolaw
+
+	* lib/WWW/Comic/Plugin/: MrWiggles.pm (1.1), uComics.pm (1.1):
+	  Adding
+
+2006-01-10 10:33  nicolaw
+
+	* MANIFEST (1.5): Added lib/WWW/Comic/Plugin/Goats.pm
+	  lib/WWW/Comic/Plugin/MrWiggles.pm lib/WWW/Comic/Plugin/uComics.pm
+	  and lib/WWW/Comic/Plugin/UserFriendly.pm
+
+2006-01-09 23:47  nicolaw
+
+	* lib/WWW/Comic/Plugin/Goats.pm (1.1): Adding
+
+2006-01-09 23:31  nicolaw
+
+	* lib/WWW/Comic/Plugin/UserFriendly.pm (1.1): Adding
+
+2006-01-09 23:31  nicolaw
+
+	* lib/WWW/Comic/Plugin/UFS.pm (1.4): Missing type() method added
+	  back again
+
+2006-01-09 23:31  nicolaw
+
+	* lib/WWW/Comic/Plugin.pm (1.2): Fixed some bugs in mirror_strip()
+	  method where other methods were being called as functions instead of
+	  methods, and incorrect use of @_ where %params should be used
+
+2006-01-09 23:30  nicolaw
+
+	* lib/WWW/Comic.pm (1.3): Added public plugins() method and POD to
+	  go with it
+
+2006-01-09 22:48  nicolaw
+
+	* Makefile.PL (1.2): Added WWW::Dilbert and WWW::VenusEnvy prereqs
+
+2006-01-09 22:45  nicolaw
+
+	* lib/WWW/Comic/Plugin/UFS.pm (1.3): Added the type() and
+	  homepage() method
+
+2006-01-09 22:45  nicolaw
+
+	* lib/WWW/Comic.pm (1.2): Added support for plugin specific method
+	  functionality via AUTOLOAD
+
+2006-01-09 21:34  nicolaw
+
+	* lib/WWW/Comic/Plugin/: Dilbert.pm (1.3), VenusEnvy.pm (1.3):
+	  Added POD to state special prerequisite modules.
+
+2006-01-09 21:24  nicolaw
+
+	* t/02pod_coverage.t (1.2): Changed to ignore missing overloaded
+	  methods in plugin modules
+
+2006-01-09 21:23  nicolaw
+
+	* lib/WWW/Comic/Plugin/: Dilbert.pm (1.2), UFS.pm (1.2),
+	  VenusEnvy.pm (1.2): Added minimal POD.
+
+2006-01-09 18:19  nicolaw
+
+	* MANIFEST (1.4): Sorted
+
+2006-01-09 18:18  nicolaw
+
+	* lib/WWW/: Comic.pm (1.1), Comic/Plugin/Dilbert.pm (1.1),
+	  Comic/Plugin/UFS.pm (1.1), Comic/Plugin/VenusEnvy.pm (1.1),
+	  Comic/Plugin.pm (1.1): Adding
+
+2006-01-09 14:32  nicolaw
+
+	* Changes (1.1), MANIFEST (1.2), META.yml (1.1): Adding
+
+2006-01-08 22:44  nicolaw
+
+	* README (1.1): Adding
+
+2006-01-08 21:58  nicolaw
+
+	* t/00compile.t (1.1), t/01pod.t (1.1), t/02pod_coverage.t (1.1),
+	  MANIFEST (1.1): Adding
+
+2006-01-08 21:50  nicolaw
+
+	* LICENSE (1.1), Makefile.PL (1.1), NOTICE (1.1), TODO (1.1), doit
+	  (1.1), INSTALL (1.1): Adding
+
