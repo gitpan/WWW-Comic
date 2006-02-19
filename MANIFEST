@@ -1,18 +1,18 @@
-ChangeLog
+Build.PL
 Changes
 INSTALL
+lib/WWW/Comic.pm
+lib/WWW/Comic/Plugin.pm
 lib/WWW/Comic/Plugin/Dilbert.pm
 lib/WWW/Comic/Plugin/Goats.pm
 lib/WWW/Comic/Plugin/MrWiggles.pm
-lib/WWW/Comic/Plugin.pm
 lib/WWW/Comic/Plugin/uComics.pm
 lib/WWW/Comic/Plugin/UFS.pm
 lib/WWW/Comic/Plugin/UserFriendly.pm
 lib/WWW/Comic/Plugin/VenusEnvy.pm
-lib/WWW/Comic.pm
 LICENSE
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 NOTICE
 README
